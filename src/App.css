@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(14, 14, 32);
+  color: rgb(151, 146, 146);
+  padding: 20px 0;
+  font-size: large;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: rgb(14, 14, 32);
+  color: rgb(151, 146, 146);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form button {
+  margin: 20px 0;
+  background-color: #282c34;
+  padding: 10px 0;
+  color: white;
+}
+
+form input {
+  background-color: #555a63;
+  color: rgb(199, 193, 193);
+  padding: 5px 0;
+}
+.list {
+  margin: 0 auto;
+  background-color: rgb(14, 14, 32);
+  color: rgb(151, 146, 146);
+  border-radius: 10px;
+  width: 350px;
+  padding: 10px 20px 20px 0;
+}
+.list-item {
+  display: flex;
+  justify-content: center;
+}
